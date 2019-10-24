@@ -1,6 +1,6 @@
 :root {
 	--back_color: rgb(0, 162, 255); /* Default value */
-	--heartbeat: 0s; /* Default value */
+	
 }
 
 body {
@@ -29,7 +29,7 @@ footer {
 }
 
 div.grid1 {
-	background-color: ;
+	background-color: red;
 	animation-name: ani_grid1;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
