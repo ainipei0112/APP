@@ -1,4 +1,7 @@
-
+:root {
+	--back_color: rgb(0, 60, 255); /* Default value */
+	--heartbeat: 0s; /* Default value */
+}
 
 body {
 	margin: 0;
