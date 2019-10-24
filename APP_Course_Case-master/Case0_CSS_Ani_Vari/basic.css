@@ -1,6 +1,6 @@
 :root {
 	--back_color: rgb(0, 162, 255); /* Default value */
-	
+	--heartbeat: 0s; /* Default value */
 }
 
 body {
