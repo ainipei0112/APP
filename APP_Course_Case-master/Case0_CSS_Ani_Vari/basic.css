@@ -1,7 +1,4 @@
-:root {
-	--back_color: red; /* Default value */
-	--heartbeat: 0s; /* Default value */
-}
+
 
 body {
 	margin: 0;
