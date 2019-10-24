@@ -67,7 +67,7 @@ div.grid4 {
 
 .fas {
 	animation-name: heartbeat;
-    animation-duration: 1s;
+    animation-duration: var(--heartbeat);
 	animation-iteration-count: infinite;
 }
 
