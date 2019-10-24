@@ -31,7 +31,8 @@ footer {
 div.grid1 {
 	background-color: var(--back_color);
 	animation-name: ani_grid1;
-    animation-duration: 1s;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
 }
 
 div.grid2 {
