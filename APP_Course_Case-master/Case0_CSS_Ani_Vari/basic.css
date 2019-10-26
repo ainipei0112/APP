@@ -1,5 +1,5 @@
 :root {
-	--back_color: rgb(0, 162, 255); /* Default value */
+	--back_color: rgb(0, 255, 136); /* Default value */
 	--heartbeat: 0s; /* Default value */
 }
 
@@ -44,6 +44,9 @@ div.grid2 {
 
 div.grid3 {
 	background-color: blue;
+	animation-name: ani_grid3;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
 }
 
 div.grid4 {
@@ -65,6 +68,16 @@ div.grid4 {
 	100% {background-color: green;}
 }
 
+@keyframes ani_grid3 {
+    from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+	0% {background-color: red;}
+	20% {background-color: orangered;}
+	40% {background-color: yellow;}
+	60% {background-color: green;}
+	80% {background-color: blue;}
+	100% {background-color: purple;}
+}
 .fas {
 	animation-name: heartbeat;
     animation-duration: var(--heartbeat);
