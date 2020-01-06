@@ -12,9 +12,9 @@ $(document).ready(function() {
 		//Weather Forecast Open Data API
 		var Your_Weather_API_key = "CWB-47FEEF1F-4B32-4584-9237-435AA30588C6";  //IMPORTANT, replace it with your weather API Authkey 中央氣象局授權碼
 		//中央氣象局 F-C0032-001 一般天氣預報-今明 36 小時天氣預報資料 API 全部縣市
-		var url_all = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-002?Authorization=" + Your_Weather_API_key + "&format=JSON";
+		var url_all = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=" + Your_Weather_API_key + "&format=JSON";
 		//中央氣象局 F-C0032-001 一般天氣預報-今明 36 小時天氣預報資料 API by 縣市
-		var url_city = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-002?Authorization=" + Your_Weather_API_key + "&format=JSON&locationName=";
+		var url_city = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=" + Your_Weather_API_key + "&format=JSON&locationName=";
 		var jqxhr = $.getJSON(url_city + city_name, function() {
 			// console.log("Get Taiwan weather success.");
 		})
